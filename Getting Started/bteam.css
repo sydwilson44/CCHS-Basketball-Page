@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Rockwild';
+    src: url('Rockwild.woff2') format('woff2'),
+        url('Rockwild.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+}
+.cover-image {
+  background-image: url(https://imageshack.com/i/poSpsQ38j);
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+.cover-image {
+  background-repeat: no-repeat;
+  -webkit-transition: background-image 1s;
+  transition: background-image 1s;
+}
+.cover-image iframe {
+  width: 100%;
+  height: 100%;
+}
+.cover-image h1 {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 450px;
+  font-family: 'Rockwild';
+  color: black;
+  letter-spacing: 10px;
+}
+header {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.content {
+  background: white;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'Rockwild';
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+
+i {
+    position: sticky;
+    border: solid black;
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 25px;
+    margin-top: 770px;
+    margin-left: 920px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}

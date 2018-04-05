@@ -1,0 +1,6 @@
+body {
+  overflow: hidden;  /* prevents scrolling because of large image */
+  background: url("https://imageshack.com/i/pnDd28lwp") no-repeat;
+  background-color: black;
+  background-size: cover;
+}

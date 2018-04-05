@@ -1,0 +1,6 @@
+body {
+  overflow: hidden;  /* prevents scrolling because of large image */
+  background: url("https://s17.postimg.org/8eshy6jzj/eagles_bball.jpg") no-repeat;
+  background-color: black;
+  background-size: cover;
+}
